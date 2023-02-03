@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.list {
+    width: 70%;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.header {
+    font-size: 24px;
+    padding: 12px;
+    background-color: #693f2d;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.items {
+    height: 700px;
+    padding: 0;
+    background-color: whitesmoke;
+    overflow-y: auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.item__check {
+    font-size: 20px;
+    border: #c77422;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin-right: 10px;
+    transition: all 300ms ease-in;
+}
+
+.item__check:hover {
+    transform: scale(1.1);
+}
+
+.item__delete {
+    font-size: 20px;
+    transition: all 300ms ease-in;
+}
+
+.item__delete:hover {
+    color: red;
+    transform: scale(1.1);
+} /* 사이즈 커지는 것이 안됨 */
+
+
+/*잘 안됨 */
+.divider {
+    width: 90%;
+    height: 1px;
+    background-color: #c77422;
+    margin: auto;
+}
+
+.footer {
+    background-color: #693f2d;
+    border-radius: 0 0 20px 20px;
+}
+
+.footer__input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 32px;
+    font-size: 24px;
+    padding: 0 16px;
+}
+
+.footer__btn {
+    width: 48px;
+    height: 48px;
+    font-size: 28px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    transition: transform 300ms ease-in;
+    margin: 5px 0;
+}
+
+.footer__btn:hover {
+    transform: scale(1.1);
+}
