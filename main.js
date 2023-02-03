@@ -55,6 +55,7 @@ function createItem(text) {
     // 체크 박스 클릭했을 때
     checkBtn.addEventListener('click', () => {
         checkBtn.style.color = 'blue';
+        name.style.textDecoration = 'line-through';
     })
 
     const deleteBtn = document.createElement('button');
