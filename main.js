@@ -84,7 +84,7 @@ addBtn.addEventListener('click', () => {
     addItem();
 });
 
-document.addEventListener('keypress', (event) => {
+document.addEventListener('keyup', (event) => {
     if (event.key === 'Enter') {
         addItem();
     }
