@@ -1,4 +1,4 @@
-#To Do List
+# To Do List
 
 ## 목적
 To do list를 작성하는 프로그램입니다. javascript의 DOM 요소를 동적으로 조작하는 것을 실습하기 위한 프로젝트입니다. 
